@@ -10,7 +10,7 @@ void setup() {
 }
 
 void loop() {
-  int throttle = 1300;         // Low throttle
+  int throttle = 1500;         // Low throttle
   esc.writeMicroseconds(throttle);
   Serial.print("Throttle: ");
   Serial.println(throttle);
